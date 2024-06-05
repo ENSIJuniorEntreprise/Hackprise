@@ -1,0 +1,19 @@
+.hackathon img{
+    padding: 2vh 2vw;
+    width: 35vw;
+    /* background-color:#E0DED2; */
+    border-radius: 15px;
+}
+
+@media (max-width: 600px){
+    .hackathon img{
+        /* padding: 5vh 7vw; */
+        width: 45vw;
+    }
+}
+@media (max-width: 400px){
+    .hackathon img{
+        /* padding: 5vh 7vw; */
+        width: 55vw;
+    }
+}

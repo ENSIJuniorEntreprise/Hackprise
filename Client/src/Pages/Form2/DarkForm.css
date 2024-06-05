@@ -1,0 +1,130 @@
+.darkform{
+    background-image: url(1.png);
+    margin: 0;
+}
+.Dform{
+    width: 50vw;
+    margin: 10vh 20vw 2vh;
+    padding:5vh 5vw;
+    background-color: #1F212D;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #E0DED2;
+    
+}
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.form-container{
+    width: 95%;
+    line-height: 40px;
+}
+.Ninput{
+    width: 20vw;
+}
+.df-input{
+    width: 100%;
+}
+
+.form-input{
+    background-color: #E0DED2;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+}
+.hackathon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+}
+.go-back-button{
+    padding: 7px;
+    /* font-weight: bold; */
+    background-color: #E0DED2;
+    border: 1px solid #1F212D;
+    border-radius: 5px;
+    margin: 1vh;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh ;
+}
+.submit-button{
+    border: 0;
+    color: #1F212D;
+    background-color: #E0DED2;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.Hackathon{
+    background-color: #E0DED2;
+}
+
+@media (max-width: 600px) {
+    .Dform {
+        margin: 10vh 8vw 2vh;
+        width: 70vw;
+      
+    }
+    .name-container{
+        display:inline;
+        width: 100%;
+    }
+    .Ninput{
+        width: 95%;
+    }
+  }
+  @media (max-width: 400px) {
+    .Dform {
+        margin: 8vh 2vw 2vh;
+        width: 81vw;
+      
+    }
+    .name-container{
+        display:inline;
+        width: 100%;
+    }
+    .Ninput{
+        width: 95%;
+    }
+  }
+  @media (max-width: 300px) {
+    .Dform {
+        margin: 6vh 1vw 2vh;
+        width: 82vw;
+      
+    }
+    .name-container{
+        display:inline;
+        width: 100%;
+    }
+    .Ninput{
+        width: 90%;
+    }
+    .df-input{
+        width: 95%;
+    }
+  }
+  @media (max-width: 200px) {
+    .Dform {
+        margin: 4vh 0 2vh;
+        width: 80vw;
+      
+    }
+    .name-container{
+        display:inline;
+        width: 100%;
+    }
+    .Ninput{
+        width: 85%;
+    }
+    .df-input{
+        width: 90%;
+    }
+  }
