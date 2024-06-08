@@ -1,9 +1,13 @@
-import React from "react";
 
-function FAQ(){
-    return(
-        <div>FAQ</div>
-    )
+import './FAQ.css';
+
+
+
+function FAQ() {
+    
+    return (
+        <></>
+    );
 }
 
-export default FAQ; 
+export default FAQ;

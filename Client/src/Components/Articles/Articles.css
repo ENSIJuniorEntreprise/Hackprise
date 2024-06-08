@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Proxima Nova Black';
+  src: url('../../assets/Proxima Nova Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('../../assets/Proxima Nova Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Thin';
+  src: url('../../assets/Proxima Nova Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('../../assets/ProximaNova-Regular.otf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.swiper-slide img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+.heading {
+  padding: 1rem 0;
+  font-size: 5rem;
+  text-align: center;
+  color: #1f212d;
+  font-family: 'Proxima Nova Regular';
+}
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1f212d;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0ded2;
+}
+
+.container {
+  max-width: 124rem;
+  padding: 4rem 1rem;
+  margin: 0 auto;
+  text-align: center;
+  background: #e0ded2;
+  font-size: 1.6rem; 
+  scroll-behavior: smooth;
+}
+.swiper_container {
+  height: 40rem;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.swiper-slide {
+  width: 40rem;
+  height: 35rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1440px) {
+  html {
+    zoom: 1.5;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem 1rem;
+    font-size: 1.4rem;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .swiper_container {
+    height: 30rem;
+  }
+  .swiper-slide {
+    width: 28rem !important;
+    height: 28rem !important;
+  }
+  .swiper-slide img {
+    width: 60% !important;
+    height: auto !important;
+  }
+}
+
+
